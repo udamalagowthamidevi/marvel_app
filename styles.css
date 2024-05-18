@@ -1,0 +1,78 @@
+header{
+    background-image: url("https://png.pngtree.com/background/20230403/original/pngtree-city-%E2%80%8B%E2%80%8Bnight-skyscraper-silhouette-background-picture-image_2264825.jpg");
+    background-repeat: repeat;
+    text-align: center; 
+    background-color:#212121;
+}
+#headerImage{
+    height: 120px;
+    width:100%
+}
+body{
+    background-color: #757575;
+}
+nav{
+    background-color:#212121 !important;
+    color: antiquewhite;
+    vertical-align: baseline;
+}
+#listOfCharaters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.card {
+    width:30%;
+    height: auto;
+    justify-content: space-between;
+    margin:10px;
+    background-color: #212121;
+    color:antiquewhite;
+}
+.buttonSection{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-radius: 10px;
+    padding:2px;
+    justify-content: center;
+}
+#navigation{
+    display: flex;
+    justify-content: center;
+}
+section{
+    margin:10px;
+}
+.intro{
+    display: flex;
+    gap: 2;
+}
+#imageSrc{
+    height:175px;
+    width:auto;
+    margin:20px;
+}
+#comicSection{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+h4{
+    text-align: center;
+    color:white;
+    font-weight:bolder;
+}
+#seriesSection{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#eventsSection{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
